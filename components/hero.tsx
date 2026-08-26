@@ -85,7 +85,7 @@ export function Hero() {
                 height={1024}
                 priority
                 sizes="(max-width: 1024px) 100vw, 520px"
-                className="h-full w-full object-cover"
+                className="h-full w-full object-scale-down"
               />
               <div
                 aria-hidden="true"
