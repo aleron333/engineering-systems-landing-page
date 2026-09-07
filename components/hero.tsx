@@ -44,7 +44,7 @@ export function Hero() {
                   href="#contact"
                   className="group relative inline-flex items-center gap-3 rounded-sm bg-primary px-7 py-4 text-sm font-semibold tracking-wide text-primary-foreground transition-all duration-300 hover:shadow-[0_0_40px_-8px] hover:shadow-primary/45 active:scale-[0.985]"
                 >
-                  Рассчитать стоимость
+                  Связаться с нами
                   <span
                     aria-hidden="true"
                     className="transition-transform duration-300 group-hover:translate-x-1"
