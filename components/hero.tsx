@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import { Reveal } from '@/components/reveal'
 
-const TRUST = ['Москва', 'Свой инструмент', 'Монтаж под ключ']
+const TRUST = ['Москва и область', 'Гарантия 2 года', 'Монтаж под ключ']
 
 export function Hero() {
   return (
@@ -22,19 +22,19 @@ export function Hero() {
             <Reveal>
               <p className="flex items-center gap-3 font-mono text-[0.6875rem] tracking-[0.28em] text-primary uppercase">
                 <span aria-hidden="true" className="h-px w-8 bg-primary/60" />
-                Инженерные решения
+                Москва и Московская область
               </p>
             </Reveal>
 
             <Reveal delay={90}>
               <h1 className="mt-7 text-4xl leading-[1.06] font-semibold tracking-[-0.03em] text-balance sm:text-5xl lg:text-[3.75rem]">
-                Электромонтаж и инженерные системы в Москве
+                Электромонтаж и инженерные системы под ключ
               </h1>
             </Reveal>
 
             <Reveal delay={180}>
               <p className="mt-7 max-w-xl text-base leading-relaxed text-muted-foreground md:text-lg">
-                Электромонтаж, слаботочные системы, видеонаблюдение, системы охраны и настройка сетевого оборудования.
+                Один подрядчик на весь комплекс работ — от монтажа до подключения и настройки. Работаем в Москве и области, даём гарантию 2 года на выполненные работы.
               </p>
             </Reveal>
 
@@ -44,7 +44,7 @@ export function Hero() {
                   href="#contact"
                   className="group relative inline-flex items-center gap-3 rounded-sm bg-primary px-7 py-4 text-sm font-semibold tracking-wide text-primary-foreground transition-all duration-300 hover:shadow-[0_0_40px_-8px] hover:shadow-primary/45 active:scale-[0.985]"
                 >
-                  Заказать услугу
+                  Связаться с нами
                   <span
                     aria-hidden="true"
                     className="transition-transform duration-300 group-hover:translate-x-1"

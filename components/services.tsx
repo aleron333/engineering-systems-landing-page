@@ -1,4 +1,4 @@
-import { Cable, Cctv, CircuitBoard, EthernetPort, PackageCheck, Router, ShieldCheck } from 'lucide-react'
+import { Cable, Cctv, CircuitBoard, EthernetPort, Router, ShieldCheck } from 'lucide-react'
 import { Reveal } from '@/components/reveal'
 import { SectionHeading } from '@/components/section-heading'
 import { cn } from '@/lib/utils'
@@ -52,16 +52,6 @@ export function Services() {
               <ServiceCard {...service} index={index} />
             </Reveal>
           ))}
-
-          <Reveal delay={360} className="sm:col-span-2 lg:col-span-3">
-            <ServiceCard
-              icon={PackageCheck}
-              title="Монтаж под ключ"
-              text="Комплексное выполнение работ — от монтажа до подключения и настройки оборудования."
-              index={6}
-              featured
-            />
-          </Reveal>
         </div>
       </div>
     </section>
