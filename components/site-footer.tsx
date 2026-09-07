@@ -14,7 +14,7 @@ export function SiteFooter() {
         <div>
           <p className="text-sm font-medium tracking-[0.14em] uppercase">Электромонтаж и инженерные системы</p>
           <p className="mt-2 font-mono text-[0.6875rem] tracking-[0.18em] text-muted-foreground uppercase">
-            Москва · Монтаж под ключ
+            Москва и область · Гарантия 2 года
           </p>
         </div>
 

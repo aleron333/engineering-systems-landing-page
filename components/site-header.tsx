@@ -7,7 +7,7 @@ const NAV = [
   { href: '#services', label: 'Услуги' },
   { href: '#advantages', label: 'О работе' },
   { href: '#process', label: 'Процесс' },
-  { href: '#moscow', label: 'Москва' },
+  { href: '#moscow', label: 'География' },
 ]
 
 export function SiteHeader() {
